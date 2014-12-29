@@ -1,0 +1,764 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-68"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-68">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#CCD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#FabryPerot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#ImagingDetector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Interferometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#MichelsonInterferometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#MultiChannelPhotometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Radar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#SingleChannelPhotometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#SpectroPhotometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Telescope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.astro.umd.edu/~eshaya/astro-onto/owl/chemistry.owl#Ionization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#Diffraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#DustDetectors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#MassSpectrometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#OpticalInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#Photometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#Polarimeter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CosmicRays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeepSpace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetectorWorkingPrinciple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DirectSensingInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMSpectrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarthObservation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtremeUltraViolet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FarInfrared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FieldOfResearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GammaRays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfraredRadiometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magnetometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NearInfrared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Optical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Particle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhotoElectronIonization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plasma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadioCentrimetric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadioMetric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadioMillimetric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadioSubMillimetric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RemoteSensingInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SolarSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spectrograph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spectrometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpectroscopicInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UltraViolet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UtlravioletRadiometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#XRays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#isotope"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#emits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFieldOfResearch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOtput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEmittedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isResearchedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#measures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neutrino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neutron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Photon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proton"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Detector"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#detects"/>
+                <Class IRI="#EMSpectrum"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ActiveInstrument"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#emits"/>
+                <Class IRI="#EMSpectrum"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#CCD"/>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#ImagingDetector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#FabryPerot"/>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Interferometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Film"/>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#ImagingDetector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#ImagingDetector"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Interferometer"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#OpticalInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#MichelsonInterferometer"/>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Interferometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#MultiChannelPhotometer"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#Photometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Radar"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#SingleChannelPhotometer"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#Photometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#SpectroPhotometer"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#Photometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#Telescope"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#OpticalInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.astro.umd.edu/~eshaya/astro-onto/owl/chemistry.owl#Ionization"/>
+        <Class IRI="#DetectorWorkingPrinciple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#Diffraction"/>
+        <Class IRI="#DetectorWorkingPrinciple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#DustDetectors"/>
+        <Class IRI="#Detector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#MassSpectrometer"/>
+        <Class IRI="#Detector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#OpticalInstrument"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#Photometer"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#OpticalInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#Polarimeter"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#OpticalInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atom"/>
+        <Class IRI="#PhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blue"/>
+        <Class IRI="#Optical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CosmicRays"/>
+        <Class IRI="#Particle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeepSpace"/>
+        <Class IRI="#FieldOfResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DirectSensingInstrument"/>
+        <Class IRI="#Detector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dust"/>
+        <Class IRI="#PhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarthObservation"/>
+        <Class IRI="#FieldOfResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtremeUltraViolet"/>
+        <Class IRI="#EMSpectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FarInfrared"/>
+        <Class IRI="#Infrared"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GammaRays"/>
+        <Class IRI="#EMSpectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrared"/>
+        <Class IRI="#EMSpectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfraredRadiometer"/>
+        <Class IRI="#Radiometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magnetometer"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Molecule"/>
+        <Class IRI="#PhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NearInfrared"/>
+        <Class IRI="#Infrared"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Optical"/>
+        <Class IRI="#EMSpectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Particle"/>
+        <Class IRI="#PhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveInstrument"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhotoElectronIonization"/>
+        <Class IRI="http://www.astro.umd.edu/~eshaya/astro-onto/owl/chemistry.owl#Ionization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plasma"/>
+        <Class IRI="#PhysicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radio"/>
+        <Class IRI="#EMSpectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadioCentrimetric"/>
+        <Class IRI="#Radio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadioMetric"/>
+        <Class IRI="#Radio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadioMillimetric"/>
+        <Class IRI="#Radio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadioSubMillimetric"/>
+        <Class IRI="#Radio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiometer"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#OpticalInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <Class IRI="#Optical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RemoteSensingInstrument"/>
+        <Class IRI="#Detector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SolarSystem"/>
+        <Class IRI="#FieldOfResearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spectrograph"/>
+        <Class IRI="#SpectroscopicInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spectrometer"/>
+        <Class IRI="#SpectroscopicInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpectroscopicInstrument"/>
+        <Class IRI="http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#OpticalInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltraViolet"/>
+        <Class IRI="#EMSpectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UtlravioletRadiometer"/>
+        <Class IRI="#Radiometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#XRays"/>
+        <Class IRI="#EMSpectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ion"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#isotope"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Particle"/>
+        <NamedIndividual IRI="#Electron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Particle"/>
+        <NamedIndividual IRI="#Neutrino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Particle"/>
+        <NamedIndividual IRI="#Neutron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalEntity"/>
+        <NamedIndividual IRI="#Neutron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Particle"/>
+        <NamedIndividual IRI="#Photon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Particle"/>
+        <NamedIndividual IRI="#Proton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalEntity"/>
+        <NamedIndividual IRI="#Proton"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isEmittedBy"/>
+        <ObjectProperty IRI="#emits"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isResearchedBy"/>
+        <ObjectProperty IRI="#hasFieldOfResearch"/>
+    </InverseObjectProperties>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#detects"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#emits"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasFieldOfResearch"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasOtput"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isEmittedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isResearchedBy"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasFieldOfResearch"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isResearchedBy"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#detects"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#emits"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasFieldOfResearch"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasOtput"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isEmittedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isResearchedBy"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#detects"/>
+        <Class IRI="#Detector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#emits"/>
+        <Class IRI="#Detector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFieldOfResearch"/>
+        <Class IRI="#Detector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOtput"/>
+        <Class IRI="#Detector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEmittedBy"/>
+        <Class IRI="#PhysicalEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isResearchedBy"/>
+        <Class IRI="#FieldOfResearch"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#detects"/>
+        <Class IRI="#PhysicalEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#emits"/>
+        <Class IRI="#PhysicalEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFieldOfResearch"/>
+        <Class IRI="#FieldOfResearch"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOtput"/>
+        <Class IRI="#PhysicalProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEmittedBy"/>
+        <Class IRI="#Detector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isResearchedBy"/>
+        <Class IRI="#Detector"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#detects"/>
+        <ObjectProperty IRI="#emits"/>
+        <ObjectProperty IRI="#hasFieldOfResearch"/>
+        <ObjectProperty IRI="#hasOtput"/>
+        <ObjectProperty IRI="#isEmittedBy"/>
+        <ObjectProperty IRI="#isResearchedBy"/>
+        <ObjectProperty IRI="#measures"/>
+    </DisjointObjectProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://escience.rpi.edu/ontology/vsto/2/0/vsto.owl#ImagingDetector</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Taken from the ontology : http://escience.rpi.edu/ontology/vsto/2/0/vsto_all.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Electromagnetic field instruments measure some physical property of incoming photons. (My definition)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActiveInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An active instrument provides its own means of sensing the remote object. Typical of this would be a radar system.  Radar generates pulses of radio waves that it sends to a surface, and then receives their reflections back from the surface, (Source: &quot;Basics of Space flight, Section II, Chapter 12. Typical Science Instruments&quot;, Jet Propulsion Laboratory, www.jpl.nasa.gov/basics/bsf12-1.php)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ActiveInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Active Instrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DetectorWorkingPrinciple</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">To be expanded</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DirectSensingInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Direct-sensing instruments, also called contact science instruments, register characteristics of phenomena in their vicinity. (Source: &quot;Basic of Space flight, Section II, Chapter 12. Typical Science Instruments&quot;, Jet Propulsion Laboratory, www.jpl.nasa.gov/basics/bsf12-1.php )</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DirectSensingInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Direct-Sensing Instrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EMSpectrum</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">I copied and pasted this class and its subclasses from some image file (.png) of an ontology which I cannot find again. It is important to find it again to give credits.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FieldOfResearch</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">This is just a first sketch. To be expanded.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PassiveInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Most instruments only receive and process existing light, particles, or other phenomena, and they are said to be passive. Typical of this type would be an imaging instrument viewing a planet that is illuminated by sunlight, or a magnetometer measuring existing magnetic fields. (Source: &quot;Basics of Space flight, Section II, Chapter 12. Typical Science Instruments&quot;, Jet Propulsion Laboratory, www.jpl.nasa.gov/basics/bsf12-1.php)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PassiveInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Passive Instrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PhysicalEntity</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Physical Entities are what is sensed by a detector. They can be atoms, ions, elementary particles, light, molecules, etc...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PhysicalProperty</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Physical parameters that are measured by detectors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RemoteSensingInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Remote-sensing instruments exist to form some kind of image or characterization of the source of the phenomena that enter the instrument. In doing so, they record characteristics of objects at a distance, sometimes forming an image by gathering, focusing and recording light. (Source: &quot;Basics of Space flight, Section II, Chapter 12. Typical Science Instruments&quot;, Jet Propulsion Laboratory, www.jpl.nasa.gov/basics/bsf12-1.php)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RemoteSensingInstrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Remote-Sensing Instrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#detects</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A relation between Detector and PhysicalEntity.
+Detectors detect physical entities like particles, plasma, molecules, etc.
+For ex, spectrometers detect light. Magnetometers detect magnetic fields, which are part of the EM-field</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#emits</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A relation between a Detector and a PhysicalEntity.
+The relation defines an &quot;active sensor&quot;: if a sensor emits any particles or waves, which are backscattered and re-absorbed, then it is an &quot;active sensor&quot;.
+The term &quot;emits&quot; implies therefore that the emitted physical entity is also reabsorbed by the same instrument.
+
+N.B. Active sensors should belong only to the family of instruments measuring properties of the electromagnetic spectrum. 
+References for this assumption are:
+
+1. http://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/txt_passive_active.html#.VKA0MhAT1I
+
+2. http://www.seos-project.eu/modules/remotesensing/remotesensing-c02-p02.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFieldOfResearch</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A relation between a Detector and FieldOfResearch.
+
+A detector is used for some research purpose, i.e. hasApplication in some FieldOfResearch. Examples of fields of research are: Determination of the elemental characteristics of a planet&apos;s surface; Dark Energy; Climate Change monitoring, etc...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasFieldOfResearch</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">application</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOtput</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A relation between Detector and a Physical Quantity. Detectors give outputs which are then processed by the due electronics. Usual outputs are Physical Quantities such as varying voltages or current flows.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isEmittedBy</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A relation between a PhysicalEntity and a Detector. It is the inverse of the emits property.
+
+In case the detector is an active sensor, it &quot;fires&quot; something out, usually light, which is backscattered and absorbed. This &quot;something&quot;, say, light, isEmittedBy the firing Detector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isResearchedBy</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A relation between FieldOfResearch and Detector.
+
+For every field of research given detectors are used, For Example, to look for pollutants in the Atmosphere (Earth Observation) spectrometers are used. To investigate the surface of celestial bodies ( Solar System Studies) spectrometers are used, but also dust detectors, ecc...
+
+This property and the related classes as well might be changed a lot in the coming months....</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#measures</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A relation between the Detector and the PhysicalQuantity it measures.
+Examples of physical quantities can be: polarization, mass, electric charge, etc...</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
